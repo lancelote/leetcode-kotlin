@@ -1,5 +1,7 @@
 package p2
 
+import utils.linkedList.ListNode
+
 class Solution {
     fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
         val dummy = ListNode()

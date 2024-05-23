@@ -15,7 +15,7 @@ class SolutionTest {
 
     companion object {
         @JvmStatic
-        fun getTestData() : Stream<Arguments> {
+        fun getTestData(): Stream<Arguments> {
             return Stream.of(
                 Arguments.of("PAYPALISHIRING", 3, "PAHNAPLSIIGYIR"),
                 Arguments.of("PAYPALISHIRING", 4, "PINALSIGYAHRPI"),
